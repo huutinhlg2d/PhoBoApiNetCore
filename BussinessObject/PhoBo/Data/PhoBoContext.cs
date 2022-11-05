@@ -34,13 +34,13 @@ namespace BussinessObject.PhoBo.Data
             );
 
             modelBuilder.Entity<Photographer>().HasData(
-                new Photographer() { Id = 2, Name = "Hồ Hữu Tình", AvatarUrl = @"Resource\Images\huutinh.jpg", DateOfBirth = new System.DateTime(2001, 10, 17), Email = "huutinh@phobo.com", Password = "123123", Rate = 0, Role = UserRole.Photographer },
-                new Photographer() { Id = 3, Name = "Phạm Tấn Hoàng", AvatarUrl = @"Resource\Images\tanhoang.jpg", DateOfBirth = new System.DateTime(1999, 5, 22), Email = "tanhoang@phobo.com", Password = "123123", Rate = 0, Role = UserRole.Photographer }
+                new Photographer() { Id = 2, Name = "Hồ Hữu Tình", AvatarUrl = @"Resources\Images\huutinh.jpg", DateOfBirth = new System.DateTime(2001, 10, 17), Email = "huutinh@phobo.com", Password = "123123", Rate = 0, Role = UserRole.Photographer },
+                new Photographer() { Id = 3, Name = "Phạm Tấn Hoàng", AvatarUrl = @"Resources\Images\tanhoang.jpg", DateOfBirth = new System.DateTime(1999, 5, 22), Email = "tanhoang@phobo.com", Password = "123123", Rate = 0, Role = UserRole.Photographer }
             );
 
             modelBuilder.Entity<Customer>().HasData(
-                new Customer() { Id = 4, Name = "Trương Thị Uyên Trang", AvatarUrl = @"Resource\Images\uyentrang.jpg", DateOfBirth = new System.DateTime(2001, 1, 1), Email = "uyentrang@phobo.com", Password = "123123", Role = UserRole.Customer },
-                new Customer() { Id = 5, Name = "Trần Quốc Khánh", AvatarUrl = @"Resource\Images\quockhanh.jpg", DateOfBirth = new System.DateTime(2001, 1, 10), Email = "quockhanh@phobo.com", Password = "123123", Role = UserRole.Customer }
+                new Customer() { Id = 4, Name = "Trương Thị Uyên Trang", AvatarUrl = @"Resources\Images\uyentrang.jpg", DateOfBirth = new System.DateTime(2001, 1, 1), Email = "uyentrang@phobo.com", Password = "123123", Role = UserRole.Customer },
+                new Customer() { Id = 5, Name = "Trần Quốc Khánh", AvatarUrl = @"Resources\Images\quockhanh.jpg", DateOfBirth = new System.DateTime(2001, 1, 10), Email = "quockhanh@phobo.com", Password = "123123", Role = UserRole.Customer }
             );
 
             modelBuilder.Entity<Concept>().HasData(

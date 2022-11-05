@@ -26,7 +26,7 @@ namespace BussinessObject.PhoBo.Models
         public string Location { get; set; }
         public string Note { get; set; }
         [DefaultValue(BookingState.Waiting)]
-        public BookingState State { get; set; }
+        public BookingState State { get; set; } = BookingState.Waiting;
         public bool IsDeleted { get; set; } = false;
     }
 }

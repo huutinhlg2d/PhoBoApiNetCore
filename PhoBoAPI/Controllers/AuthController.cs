@@ -61,7 +61,7 @@ namespace PhoBoAPI.Controllers
 
         // POST api/<AuthController>
         [HttpPost("login")]
-        public IActionResult Login([FromBody] Login login)
+        public IActionResult Login([FromForm] Login login, int id)
         {
             User user = _mapper.Map<User>(login);
 
