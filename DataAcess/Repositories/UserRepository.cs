@@ -15,9 +15,16 @@ namespace DataAccess.Repositories
         {
         }
 
+
+        public List<User> getUserByRole(UserRole role)
+        {
+            return PhoBoContext.User.Where(u => u.Role.Equals(role)).ToList();
+        }
+
         public User Login(string email, string password)
         {
             return PhoBoContext.User.SingleOrDefault(u => u.Email.Equals(email) && u.Password.Equals(password));
         }
+
     }
 }

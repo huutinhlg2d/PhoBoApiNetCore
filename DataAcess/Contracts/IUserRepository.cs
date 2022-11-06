@@ -10,5 +10,6 @@ namespace DataAccess.Contracts
     public interface IUserRepository : IRepositoryBase<User>
     {
         User Login(string email, string password);
+        List<User> getUserByRole(UserRole role);
     }
 }

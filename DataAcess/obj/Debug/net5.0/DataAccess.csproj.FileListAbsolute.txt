@@ -30,3 +30,19 @@ E:\Wibu stuff\doc\PRN231\PhoBov2\PhoBoAPI\DataAcess\obj\Debug\net5.0\DataAccess.
 E:\Wibu stuff\doc\PRN231\PhoBov2\PhoBoAPI\DataAcess\obj\Debug\net5.0\refint\DataAccess.dll
 E:\Wibu stuff\doc\PRN231\PhoBov2\PhoBoAPI\DataAcess\obj\Debug\net5.0\DataAccess.pdb
 E:\Wibu stuff\doc\PRN231\PhoBov2\PhoBoAPI\DataAcess\obj\Debug\net5.0\ref\DataAccess.dll
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\obj\Debug\net5.0\DataAccess.dll
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\obj\Debug\net5.0\ref\DataAccess.dll
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\obj\Debug\net5.0\DataAccess.pdb
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\bin\Debug\net5.0\appsettings.json
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\bin\Debug\net5.0\DataAccess.deps.json
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\bin\Debug\net5.0\DataAccess.dll
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\bin\Debug\net5.0\ref\DataAccess.dll
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\bin\Debug\net5.0\DataAccess.pdb
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\bin\Debug\net5.0\BussinessObject.dll
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\bin\Debug\net5.0\BussinessObject.pdb
+D:\ChuyenNganh8\PRN231-VoLC\GroupProject\PhoBoApiNetCore\DataAcess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete

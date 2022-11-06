@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\DataAcess\\DataAccess.csproj": {}
+    "D:\\ChuyenNganh8\\PRN231-VoLC\\GroupProject\\PhoBoApiNetCore\\DataAcess\\DataAccess.csproj": {}
   },
   "projects": {
-    "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\BussinessObject\\BussinessObject.csproj": {
+    "D:\\ChuyenNganh8\\PRN231-VoLC\\GroupProject\\PhoBoApiNetCore\\BussinessObject\\BussinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\BussinessObject\\BussinessObject.csproj",
+        "projectUniqueName": "D:\\ChuyenNganh8\\PRN231-VoLC\\GroupProject\\PhoBoApiNetCore\\BussinessObject\\BussinessObject.csproj",
         "projectName": "BussinessObject",
-        "projectPath": "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\BussinessObject\\BussinessObject.csproj",
-        "packagesPath": "C:\\Users\\OS\\.nuget\\packages\\",
-        "outputPath": "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\BussinessObject\\obj\\",
+        "projectPath": "D:\\ChuyenNganh8\\PRN231-VoLC\\GroupProject\\PhoBoApiNetCore\\BussinessObject\\BussinessObject.csproj",
+        "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
+        "outputPath": "D:\\ChuyenNganh8\\PRN231-VoLC\\GroupProject\\PhoBoApiNetCore\\BussinessObject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\OS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,21 +96,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\DataAcess\\DataAccess.csproj": {
+    "D:\\ChuyenNganh8\\PRN231-VoLC\\GroupProject\\PhoBoApiNetCore\\DataAcess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\DataAcess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\ChuyenNganh8\\PRN231-VoLC\\GroupProject\\PhoBoApiNetCore\\DataAcess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\DataAcess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\OS\\.nuget\\packages\\",
-        "outputPath": "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\DataAcess\\obj\\",
+        "projectPath": "D:\\ChuyenNganh8\\PRN231-VoLC\\GroupProject\\PhoBoApiNetCore\\DataAcess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\truon\\.nuget\\packages\\",
+        "outputPath": "D:\\ChuyenNganh8\\PRN231-VoLC\\GroupProject\\PhoBoApiNetCore\\DataAcess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\OS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\truon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,8 +128,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\BussinessObject\\BussinessObject.csproj": {
-                "projectPath": "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\BussinessObject\\BussinessObject.csproj"
+              "D:\\ChuyenNganh8\\PRN231-VoLC\\GroupProject\\PhoBoApiNetCore\\BussinessObject\\BussinessObject.csproj": {
+                "projectPath": "D:\\ChuyenNganh8\\PRN231-VoLC\\GroupProject\\PhoBoApiNetCore\\BussinessObject\\BussinessObject.csproj"
               }
             }
           }
@@ -150,7 +158,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
