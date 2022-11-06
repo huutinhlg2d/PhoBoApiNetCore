@@ -69,7 +69,6 @@ namespace PhoBoAPI
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "PhoBoAPI", Version = "v1" });
-                c.DescribeAllEnumsAsStrings();
             });
         }
 
