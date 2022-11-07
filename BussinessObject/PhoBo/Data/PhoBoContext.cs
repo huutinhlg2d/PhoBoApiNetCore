@@ -28,6 +28,9 @@ namespace BussinessObject.PhoBo.Data
         {
             modelBuilder.Entity<Photographer>().ToTable("Photographer");
             modelBuilder.Entity<Customer>().ToTable("Customer");
+            modelBuilder.Entity<BookingConceptConfig>().HasAlternateKey(bcc
+                => new { bcc.ConceptId, bcc.PhotographerId }
+            );
 
             modelBuilder.Entity<User>().HasData(
                 new User() { Id = 1, Name = "Admin", Email = "admin@phobo.com", Password = "admin@@", Role = UserRole.Admin }

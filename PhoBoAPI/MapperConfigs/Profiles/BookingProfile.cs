@@ -8,7 +8,7 @@ namespace PhoBoAPI.MapperConfigs.Profiles
     {
         public BookingProfile()
         {
-            CreateMap<CreateBooking, Booking>();
+            CreateMap<CreateBooking, Booking>().ReverseMap();
         }
     }
 }

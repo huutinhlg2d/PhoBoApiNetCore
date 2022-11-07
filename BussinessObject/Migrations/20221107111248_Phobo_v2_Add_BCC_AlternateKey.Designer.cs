@@ -4,14 +4,16 @@ using BussinessObject.PhoBo.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BussinessObject.Migrations
 {
     [DbContext(typeof(PhoBoContext))]
-    partial class PhoBoContextModelSnapshot : ModelSnapshot
+    [Migration("20221107111248_Phobo_v2_Add_BCC_AlternateKey")]
+    partial class Phobo_v2_Add_BCC_AlternateKey
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

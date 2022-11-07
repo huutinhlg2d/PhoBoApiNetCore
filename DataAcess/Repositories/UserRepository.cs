@@ -19,5 +19,10 @@ namespace DataAccess.Repositories
         {
             return PhoBoContext.User.SingleOrDefault(u => u.Email.Equals(email) && u.Password.Equals(password));
         }
+
+        public User FindByEmail(string email)
+        {
+            return PhoBoContext.User.SingleOrDefault(u => u.Email.Equals(email));
+        }
     }
 }

@@ -9,5 +9,7 @@ namespace DataAccess.Contracts
 {
     public interface IBookingConceptConfigRepository : IRepositoryBase<BookingConceptConfig>
     {
+        void LoadConcept(BookingConceptConfig config);
+        IEnumerable<BookingConceptConfig> FindByPhotographerId(int id);
     }
 }

@@ -10,5 +10,7 @@ namespace DataAccess.Contracts
     public interface IUserRepository : IRepositoryBase<User>
     {
         User Login(string email, string password);
+
+        User FindByEmail(string email);
     }
 }

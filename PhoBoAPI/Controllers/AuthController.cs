@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IdentityModel.Tokens.Jwt;
 using System.IO;
+using System.Security.Claims;
 using System.Text;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -61,10 +63,8 @@ namespace PhoBoAPI.Controllers
 
         // POST api/<AuthController>
         [HttpPost("login")]
-        public IActionResult Login([FromForm] Login login, int id)
+        public IActionResult Login([FromForm] Login login)
         {
-            User user = _mapper.Map<User>(login);
-
             User loginUser = _repository.User.Login(login.Email, login.Password);
 
             Debug.WriteLine($"{login.Email} {login.Password}");
@@ -74,18 +74,28 @@ namespace PhoBoAPI.Controllers
                 return Unauthorized("Login fail!");
             }
 
-            var tokenString = BuildToken(user);
+            var tokenString = BuildToken(loginUser);
 
             return Ok(new { user = loginUser, token = tokenString});
         }
 
         private string BuildToken(User user)
         {
+            var authClaims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, user.Name),
+                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                    new Claim("ID", user.Id.ToString()),
+                    new Claim(ClaimTypes.Role, user.Role.ToString())
+                };
+
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            var token = new JwtSecurityToken(_config["Jwt:Issuer"],
-              _config["Jwt:Issuer"],
+            var token = new JwtSecurityToken(
+              audience: _config["Jwt:Audience"],
+              issuer: _config["Jwt:Issuer"],
               expires: DateTime.Now.AddMinutes(30),
+              claims: authClaims,
               signingCredentials: creds);
             return new JwtSecurityTokenHandler().WriteToken(token);
         }

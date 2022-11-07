@@ -31,6 +31,10 @@ namespace DataAccess.Repositories
         }
         public virtual IEnumerable<T> FindByCondition(Expression<Func<T, bool>> expression) =>
             PhoBoContext.Set<T>().Where(expression).AsNoTracking();
+        public bool Exists(Expression<Func<T, bool>> expression)
+        {
+            return PhoBoContext.Set<T>().Any(expression);
+        }
         public virtual void Create(T entity) => PhoBoContext.Set<T>().Add(entity);
         public virtual void Update(T entity) => PhoBoContext.Set<T>().Update(entity);
         public virtual void Delete(T entity) => PhoBoContext.Set<T>().Remove(entity);
