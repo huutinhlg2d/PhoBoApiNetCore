@@ -6097,19 +6097,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\OS\\.nuget\\packages\\": {}
+    "C:\\Users\\Hoang\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\PhoBoAPI\\PhoBoAPI.csproj",
+      "projectUniqueName": "D:\\My Study\\FPT\\Fall 2022\\PRN231\\PhoBoApiNetCore\\PhoBoAPI\\PhoBoAPI.csproj",
       "projectName": "PhoBoAPI",
-      "projectPath": "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\PhoBoAPI\\PhoBoAPI.csproj",
-      "packagesPath": "C:\\Users\\OS\\.nuget\\packages\\",
-      "outputPath": "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\PhoBoAPI\\obj\\",
+      "projectPath": "D:\\My Study\\FPT\\Fall 2022\\PRN231\\PhoBoApiNetCore\\PhoBoAPI\\PhoBoAPI.csproj",
+      "packagesPath": "C:\\Users\\Hoang\\.nuget\\packages\\",
+      "outputPath": "D:\\My Study\\FPT\\Fall 2022\\PRN231\\PhoBoApiNetCore\\PhoBoAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\OS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6123,11 +6123,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\BussinessObject\\BussinessObject.csproj": {
-              "projectPath": "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\BussinessObject\\BussinessObject.csproj"
+            "D:\\My Study\\FPT\\Fall 2022\\PRN231\\PhoBoApiNetCore\\BussinessObject\\BussinessObject.csproj": {
+              "projectPath": "D:\\My Study\\FPT\\Fall 2022\\PRN231\\PhoBoApiNetCore\\BussinessObject\\BussinessObject.csproj"
             },
-            "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\DataAcess\\DataAccess.csproj": {
-              "projectPath": "E:\\Wibu stuff\\doc\\PRN231\\PhoBov2\\PhoBoAPI\\DataAcess\\DataAccess.csproj"
+            "D:\\My Study\\FPT\\Fall 2022\\PRN231\\PhoBoApiNetCore\\DataAcess\\DataAccess.csproj": {
+              "projectPath": "D:\\My Study\\FPT\\Fall 2022\\PRN231\\PhoBoApiNetCore\\DataAcess\\DataAccess.csproj"
             }
           }
         }
