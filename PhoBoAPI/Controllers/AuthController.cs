@@ -39,9 +39,12 @@ namespace PhoBoAPI.Controllers
 
             var fullPath = Path.Combine(Directory.GetCurrentDirectory(), register.GetAvatarUrl());
 
-            using (var stream = new FileStream(fullPath, FileMode.Create))
+            if (register.AvatarFile != null)
             {
-                register.AvatarFile.CopyToAsync(stream);
+                using (var stream = new FileStream(fullPath, FileMode.Create))
+                {
+                    register.AvatarFile.CopyToAsync(stream);
+                }
             }
 
             if (user.Role.Equals(UserRole.Customer))

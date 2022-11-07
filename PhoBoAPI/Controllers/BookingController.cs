@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace PhoBoAPI.Controllers
 {
@@ -51,5 +52,34 @@ namespace PhoBoAPI.Controllers
             List<UserBooking> userBookingList = _mapper.Map<List<UserBooking>>(bookingList);
             return Ok(userBookingList);
         }
+
+        [HttpPatch("{id}/accept")]
+        public async Task<ActionResult> acceptRequestAsync(int id)
+        {
+            Booking bookingRequest = _repository.Booking.FindByID(id);
+            bookingRequest.State = BookingState.Accepted;
+            await _repository.SaveAsync();
+            return Ok(bookingRequest.State);
+        }
+
+        [HttpPatch("{id}/decline")]
+        public async Task<ActionResult> declineRequestAsync(int id)
+        {
+            Booking bookingRequest = _repository.Booking.FindByID(id);
+            bookingRequest.State = BookingState.Declined;
+            await _repository.SaveAsync();
+            return Ok(bookingRequest.State);
+        }
+
+        [HttpPatch("{id}/cancel")]
+        public async Task<ActionResult> cancelRequestAsync(int id)
+        {
+            Booking bookingRequest = _repository.Booking.FindByID(id);
+            bookingRequest.State = BookingState.Canceled;
+            await _repository.SaveAsync();
+            return Ok(bookingRequest.State);
+        }
+
+
     }
 }
