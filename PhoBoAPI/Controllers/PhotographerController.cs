@@ -26,5 +26,13 @@ namespace PhoBoAPI.Controllers
 
             return photographers;
         }
+
+        // Get api/<UserController>
+        [HttpGet("id")]
+        public Photographer GetAllPhotographerByID(int id)
+        {
+            Photographer photographers = _repository.Photographer.FindByID(id);
+            return photographers;
+        }
     }
 }
